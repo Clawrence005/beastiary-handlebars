@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Clawrence005/beastiary-handlebars/issues"
   },
-  "homepage": "https://github.com/Clawrence005/beastiary-handlebars#readme"
+  "homepage": "https://github.com/Clawrence005/beastiary-handlebars#readme",
+  "dependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
