@@ -25,7 +25,6 @@
 // app.listen(PORT, function () {
 //   console.log("App listening on PORT " + PORT);
 // });
-let list = [{ name: "abra" }, { name: "cadabra" }, { name: "abraka" }]
 let list2 = [{
   name: "Ghouls",
   routeName: "ghoul",
@@ -76,26 +75,40 @@ app.set("view engine", "hbs");
 app.use(express.static(__dirname + '/public'));
 // Setup a GET route at ‘/’ using,
 app.get("/", (req, res) => {
-  // let monsterList = monster.monsterData;
   console.log("monster", monsters);
 
-  res.render("index", { listitem: list, listitem2: list2 });
+  res.render("index", { listitem: monsters, listitem2: list2 });
 });
 
-app.get("/beastiary/:routeName", function (req, res) {
+app.get("/mon", function (req, res) {
+  res.json({ monsters });
+});
+
+app.get('/data', function (req, res, next) {
+  res.json({ monsters });
+});
+
+
+app.get("/beastiary/:routeName", function (req, res, next) {
   for (var i = 0; i < list2.length; i++) {
     if (list2[i].routeName === req.params.routeName) {
       res.render("beast", list2[i]);
     }
-    else if (list2[i].routeName != req.params.routeName) {
-      res.status(404);
-      res.render('404page');
+    // else if (list2[i].routeName != req.params.routeName) {
+    //   res.status(404);
+    //   res.render('404page');
+    // }
+    else {
+      // res.status(404);
+      // res.render('404page');
     }
+
   }
 });
 app.use(function (req, res) {
   res.status(404);
   res.render('404page');
+
 });
 
 // app.get("beastiary/:routeName", function (req, res) {
