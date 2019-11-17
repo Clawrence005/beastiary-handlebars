@@ -14,9 +14,31 @@
   </h1>
   <ul>
     {{#each listitem}}
-    <li>{{this}}</li>
+    <div style="background-color: aqua; padding: 1em; border: 3px solid red ">
+      <li>{{this}}</li>
+    </div>
     {{/each}}
   </ul>
+  <ul>
+    {{#each listitem2}}
+    <div style="background-color: aqua; padding: 1em; border: 3px solid red ">
+      <h1>{{this.name}}</h1>
+      <li>{{this.routeName}}</li>
+      <li>{{this.description}}</li>
+      <img src="{{{this.photo}}}" alt="{{this.name}}" <li>{{this.foods}}</li>
+      <li>{{this.location}}</li>
+
+    </div>
+    {{/each}}
+  </ul>
+
+  {{!-- <ul>
+    {{#each monster}}
+    <div style="background-color: aqua; padding: 1em; border: 3px solid red ">
+      <li>{{this}}</li>
+    </div>
+    {{/each}}
+  </ul> --}}
 </body>
 
 </html>
