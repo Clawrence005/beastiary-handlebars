@@ -1,44 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-
-<body>
-  <h1>
-    This is the main Page
-  </h1>
-  <ul>
-    {{#each listitem}}
-    <div style="background-color: aqua; padding: 1em; border: 3px solid red ">
-      <li>{{this}}</li>
-    </div>
-    {{/each}}
-  </ul>
-  <ul>
-    {{#each listitem2}}
+<h1>Beastiary</h1>
+<ul>
+  {{#each listitem}}
+  <div style="background-color: aqua; padding: 1em; border: 3px solid red ">
+    <li>{{this}}</li>
+  </div>
+  {{/each}}
+</ul>
+<ul>
+  {{#each listitem2}}
+  <a href="beastiary/{{this.routeName}}">
     <div style="background-color: aqua; padding: 1em; border: 3px solid red ">
       <h1>{{this.name}}</h1>
       <li>{{this.routeName}}</li>
+      Click
       <li>{{this.description}}</li>
       <img src="{{{this.photo}}}" alt="{{this.name}}" <li>{{this.foods}}</li>
       <li>{{this.location}}</li>
 
     </div>
-    {{/each}}
-  </ul>
-
-  {{!-- <ul>
-    {{#each monster}}
-    <div style="background-color: aqua; padding: 1em; border: 3px solid red ">
-      <li>{{this}}</li>
-    </div>
-    {{/each}}
-  </ul> --}}
-</body>
-
-</html>
+  </a>
+  {{/each}}
+</ul>
