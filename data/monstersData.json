@@ -1,131 +1,129 @@
-{
-  "monsterData": [
-    {
-      "name": "Ghouls",
-      "routeName": "ghoul",
-      "malicious": true,
-      "description": "a",
-      "foods": [
-        "cats",
-        "humans",
-        "goats"
-      ],
-      "location": "a",
-      "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
-    },
-    {
-      "name": "Jinn",
-      "routeName": "jinn",
-      "malicious": true,
-      "description": "b",
-      "foods": [
-        "cats",
-        "humans",
-        "goats"
-      ],
-      "location": "a",
-      "photo": "../assets/12271233430751.56aaa2bdaf27f.png"
-    },
-    {
-      "name": "la Llorona",
-      "routeName": "lallorona",
-      "description": "A sprectral 'wailing woman' in Spanish she haunts river and ditch banks searching for the children she drowned in madness.",
-      "malicious": true,
-      "foods": [
-        "children"
-      ],
-      "location": "found along rivers and ditches thoughout the Spanish speaking regions of the Americas.",
-      "photo": "../assets/e4e8ebdc.jpg"
-    },
-    {
-      "name": "Manticore",
-      "routeName": "manticore",
-      "description": "d",
-      "foods": [
-        "cats",
-        "humans",
-        "goats"
-      ],
-      "location": "a",
-      "photo": "../assets/las-jpg-mal1.jpg"
-    },
-    {
-      "name": "Nixies",
-      "routeName": "nixie",
-      "description": "e",
-      "location": "a",
-      "photo": "../assets/e4e8ebdc.jpg"
-    },
-    {
-      "name": "Bodach",
-      "routeName": "bodach",
-      "description": "f",
-      "foods": [
-        "cats",
-        "humans",
-        "goats"
-      ],
-      "location": "a",
-      "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
-    },
-    {
-      "name": "Jackalope",
-      "routeName": "jackalope",
-      "malicious": false,
-      "description": "f",
-      "foods": [
-        "cats",
-        "humans",
-        "goats"
-      ],
-      "location": "a",
-      "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
-    },
-    {
-      "name": "Lamia",
-      "routeName": "lamia",
-      "malicious": true,
-      "description": "female child eating serpent tailed monsters",
-      "foods": [
-        "children"
-      ],
-      "location": "ancient Greece",
-      "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
-    },
-    {
-      "name": "Lilitu",
-      "routeName": "lilitu",
-      "malicious": true,
-      "description": "also known as Lillith in the Bible, was a mesopotamian monster that fed on babies.",
-      "foods": [
-        "children"
-      ],
-      "location": "ancient Mesopotamia",
-      "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
-    },
-    {
-      "name": "Scott",
-      "routeName": "scott",
-      "malicious": true,
-      "description": "drinks vodka sodas",
-      "foods": [
-        "children",
-        "vodka"
-      ],
-      "location": "nearest the grand,",
-      "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
-    },
-    {
-      "name": "Jessi",
-      "routeName": "jessi",
-      "malicious": false,
-      "description": "haunts the library and eats vegan pizza",
-      "foods": [
-        "classic cocktails",
-        "vegan pizza"
-      ],
-      "location": "near north loop",
-      "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
-    }
-  ]
-}
+[
+  {
+    "name": "Ghouls",
+    "routeName": "ghoul",
+    "malicious": true,
+    "description": "a",
+    "foods": [
+      "cats",
+      "humans",
+      "goats"
+    ],
+    "location": "a",
+    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+  },
+  {
+    "name": "Jinn",
+    "routeName": "jinn",
+    "malicious": true,
+    "description": "b",
+    "foods": [
+      "cats",
+      "humans",
+      "goats"
+    ],
+    "location": "a",
+    "photo": "../assets/12271233430751.56aaa2bdaf27f.png"
+  },
+  {
+    "name": "la Llorona",
+    "routeName": "lallorona",
+    "description": "A sprectral 'wailing woman' in Spanish she haunts river and ditch banks searching for the children she drowned in madness.",
+    "malicious": true,
+    "foods": [
+      "children"
+    ],
+    "location": "found along rivers and ditches thoughout the Spanish speaking regions of the Americas.",
+    "photo": "../assets/e4e8ebdc.jpg"
+  },
+  {
+    "name": "Manticore",
+    "routeName": "manticore",
+    "description": "d",
+    "foods": [
+      "cats",
+      "humans",
+      "goats"
+    ],
+    "location": "a",
+    "photo": "../assets/las-jpg-mal1.jpg"
+  },
+  {
+    "name": "Nixies",
+    "routeName": "nixie",
+    "description": "e",
+    "location": "a",
+    "photo": "../assets/e4e8ebdc.jpg"
+  },
+  {
+    "name": "Bodach",
+    "routeName": "bodach",
+    "description": "f",
+    "foods": [
+      "cats",
+      "humans",
+      "goats"
+    ],
+    "location": "a",
+    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+  },
+  {
+    "name": "Jackalope",
+    "routeName": "jackalope",
+    "malicious": false,
+    "description": "f",
+    "foods": [
+      "cats",
+      "humans",
+      "goats"
+    ],
+    "location": "a",
+    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+  },
+  {
+    "name": "Lamia",
+    "routeName": "lamia",
+    "malicious": true,
+    "description": "female child eating serpent tailed monsters",
+    "foods": [
+      "children"
+    ],
+    "location": "ancient Greece",
+    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+  },
+  {
+    "name": "Lilitu",
+    "routeName": "lilitu",
+    "malicious": true,
+    "description": "also known as Lillith in the Bible, was a mesopotamian monster that fed on babies.",
+    "foods": [
+      "children"
+    ],
+    "location": "ancient Mesopotamia",
+    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+  },
+  {
+    "name": "Scott",
+    "routeName": "scott",
+    "malicious": true,
+    "description": "drinks vodka sodas",
+    "foods": [
+      "children",
+      "vodka"
+    ],
+    "location": "nearest the grand,",
+    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+  },
+  {
+    "name": "Jessi",
+    "routeName": "jessi",
+    "malicious": false,
+    "description": "haunts the library and eats vegan pizza",
+    "foods": [
+      "classic cocktails",
+      "vegan pizza"
+    ],
+    "location": "near north loop",
+    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+  }
+]
