@@ -1,6 +1,6 @@
 <div style="background-color: aqua; padding: 1em; border: 3px solid red ">
   <h1>{{this.name}}</h1>
-  <li>{{this.routeName}}</li>
+
   <li>{{this.description}}</li>
   {{#if malicious}}
   <h3 class="warning">WARNING: This creature is dangerous to humans!</h3>
@@ -9,6 +9,13 @@
   {{/if}}
 
   {{!-- <img src="{{{this.photo}}}" alt="{{this.name}}" <li>{{this.foods}}</li> --}}
-  <li>{{this.location}}</li>
+  <li>location: {{this.location}}
+  </li>
 </div>
+{{#if hasRelatives}}
+<h3>related!</h3>
+{{!-- {{#each this}} --}}
+<a href=" beastiary/{{this.relatedRoutes}}">{{this.related}} </a>
+{{!-- {{/each}} --}}
+{{/if}}
 <a href="/">click here to go back</a>

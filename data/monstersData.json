@@ -28,7 +28,8 @@
   {
     "name": "la Llorona",
     "routeName": "lallorona",
-    "description": "A sprectral 'wailing woman' in Spanish she haunts river and ditch banks searching for the children she drowned in madness.",
+    "summary": "A sprectral 'wailing woman' in Spanish she haunts river and ditch banks searching for the children she drowned in madness.",
+    "description": "A sprectral 'wailing woman' in Spanish she haunts river and ditch banks searching for the children she drowned in madness after her husband spurned her.",
     "malicious": true,
     "foods": [
       "children"
@@ -53,9 +54,23 @@
     "name": "Nixies",
     "routeName": "nixie",
     "malicious": true,
-    "description": "e",
-    "location": "a",
-    "photo": "../assets/e4e8ebdc.jpg"
+    "summary": "Shapeshifting water spirits of Germanic and Scandinavian lore",
+    "description": "Shapeshifting water spirits of Germanic and Scandinavian lore. known to deceive and drown unsuspecting victims.",
+    "location": "found in bodies of water throught the Germanic world",
+    "photo": "../assets/e4e8ebdc.jpg",
+    "hasRelatives": true,
+    "related": [
+      "Melusine",
+      "Sirens",
+      "Undine",
+      "Selkies"
+    ],
+    "relatedRoutes": [
+      "melusine",
+      "sirens",
+      "undine",
+      "selkies"
+    ]
   },
   {
     "name": "Bodach",

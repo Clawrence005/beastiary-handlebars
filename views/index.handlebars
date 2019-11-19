@@ -1,0 +1,16 @@
+<h1>Beastiary</h1>
+<a href="/data">json api</a>
+<ul>
+  {{#each monsterslist}}
+  <a href="beastiary/{{this.routeName}}">
+    <div style="background-color: aqua; padding: 1em; border: 3px solid red ">
+      <h1>{{this.name}}</h1>
+      <li>{{this.summary}}</li>
+      <img src="{{{this.photo}}}" alt="{{this.name}}" />
+      <li>{{this.foods}}</li>
+      <li>location: {{this.location}}
+
+    </div>
+  </a>
+  {{/each}}
+</ul>
