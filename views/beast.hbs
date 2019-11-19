@@ -2,6 +2,12 @@
   <h1>{{this.name}}</h1>
   <li>{{this.routeName}}</li>
   <li>{{this.description}}</li>
+  {{#if malicious}}
+  <h3 class="warning">WARNING: This creature is dangerous to humans!</h3>
+  {{else}}
+  <p>There is currently no knowledge of this creature being malicious to humans</p>
+  {{/if}}
+
   {{!-- <img src="{{{this.photo}}}" alt="{{this.name}}" <li>{{this.foods}}</li> --}}
   <li>{{this.location}}</li>
 </div>

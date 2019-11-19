@@ -61,9 +61,6 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/mon", function (req, res) {
-  res.json({ monsters });
-});
 
 app.get('/data', function (req, res, next) {
   res.json(monsters);
@@ -85,23 +82,6 @@ app.get("/beastiary/:routeName", function (req, res, next) {
     // res.status(404);
     // res.render('404page');
     // }
-
-  }
-});
-
-app.get("/monsters/:routeName", function (req, res, next) {
-  for (var i = 0; i < monsters.length; i++) {
-    if (monsters[i].routeName === req.params.routeName) {
-      res.render("beast", monsters[i]);
-    }
-    // else if (list2[i].routeName != req.params.routeName) {
-    //   res.status(404);
-    //   res.render('404page');
-    // }
-    else {
-      // res.status(404);
-      // res.render('404page');
-    }
 
   }
 });

@@ -39,6 +39,7 @@
   {
     "name": "Manticore",
     "routeName": "manticore",
+    "malicious": true,
     "description": "d",
     "foods": [
       "cats",
@@ -51,6 +52,7 @@
   {
     "name": "Nixies",
     "routeName": "nixie",
+    "malicious": true,
     "description": "e",
     "location": "a",
     "photo": "../assets/e4e8ebdc.jpg"
@@ -58,6 +60,7 @@
   {
     "name": "Bodach",
     "routeName": "bodach",
+    "malicious": true,
     "description": "f",
     "foods": [
       "cats",
