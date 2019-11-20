@@ -10,7 +10,7 @@
       "goats"
     ],
     "location": "a",
-    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+    "photo": "/assets/images/logodummy.png"
   },
   {
     "name": "Jinn",
@@ -23,7 +23,7 @@
       "goats"
     ],
     "location": "a",
-    "photo": "../assets/12271233430751.56aaa2bdaf27f.png"
+    "photo": "/assets/images/logodummy.png"
   },
   {
     "name": "la Llorona",
@@ -35,7 +35,7 @@
       "children"
     ],
     "location": "found along rivers and ditches thoughout the Spanish speaking regions of the Americas.",
-    "photo": "../assets/e4e8ebdc.jpg"
+    "photo": "/assets/images/logodummy.png"
   },
   {
     "name": "Manticore",
@@ -48,7 +48,7 @@
       "goats"
     ],
     "location": "a",
-    "photo": "../assets/las-jpg-mal1.jpg"
+    "photo": "/assets/images/logodummy.png"
   },
   {
     "name": "Nixies",
@@ -57,7 +57,7 @@
     "summary": "Shapeshifting water spirits of Germanic and Scandinavian lore",
     "description": "Shapeshifting water spirits of Germanic and Scandinavian lore. known to deceive and drown unsuspecting victims.",
     "location": "found in bodies of water throught the Germanic world",
-    "photo": "../assets/e4e8ebdc.jpg",
+    "photo": "/assets/images/logodummy.png",
     "hasRelatives": true,
     "related": [
       "Melusine",
@@ -83,7 +83,7 @@
       "goats"
     ],
     "location": "a",
-    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+    "photo": "/assets/images/logodummy.png"
   },
   {
     "name": "Jackalope",
@@ -96,7 +96,7 @@
       "goats"
     ],
     "location": "a",
-    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+    "photo": "/assets/images/logodummy.png"
   },
   {
     "name": "Lamia",
@@ -107,7 +107,7 @@
       "children"
     ],
     "location": "ancient Greece",
-    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+    "photo": "/assets/images/logodummy.png"
   },
   {
     "name": "Lilitu",
@@ -118,7 +118,7 @@
       "children"
     ],
     "location": "ancient Mesopotamia",
-    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+    "photo": "/assets/images/logodummy.png"
   },
   {
     "name": "Scott",
@@ -130,7 +130,7 @@
       "vodka"
     ],
     "location": "nearest the grand,",
-    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+    "photo": "/assets/images/logodummy.png"
   },
   {
     "name": "Jessi",
@@ -142,6 +142,6 @@
       "vegan pizza"
     ],
     "location": "near north loop",
-    "photo": "../assets/0d415c72a02ca63254db865c1d0c1f96.gif"
+    "photo": "/assets/images/logodummy.png"
   }
 ]

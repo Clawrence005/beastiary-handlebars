@@ -1,0 +1,68 @@
+
+:root{
+  --nav-logo-color: black;
+
+}
+  *{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: rgb(213,219,245);
+  background: linear-gradient(60deg, rgba(213,219,245,1) 0%, rgba(21,200,236,1) 100%);
+}
+
+.navbar-main{
+  display: inline-flex;
+  width: 100%;
+  background-color: grey; 
+  padding: 1em;
+  /* border: 3px solid red ; */
+}
+.content{
+  /* background-color: aqua;  */
+  padding:0 8em 0;
+  /* margin-bottom: 1em; */
+  /* border: 3px solid green ; */
+  
+}
+
+.beast-main-wrapper-index{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+  /* grid-auto-rows: minmax(150px, auto); */
+
+
+  /* display: grid;
+  grid-auto-rows: 50px;
+  grid-auto-flow: row dense;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px; */
+}
+
+.beast-wrapper-index{
+  background-color: aqua; 
+  /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25% 100px auto; */
+  padding: 1em;
+  margin-bottom: 1em;
+  /* border: 3px solid red ; */
+}
+
+.indiv-beast-wrapper{
+  background-color: lightblue; 
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 3px solid red ;
+}
+.footer{
+  display: inline-flex;
+  width: 100%;
+  background-color: grey; 
+  padding: 1em;
+  border: 3px solid red ;
+}

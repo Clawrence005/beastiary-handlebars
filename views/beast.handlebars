@@ -1,6 +1,6 @@
-<div style="background-color: aqua; padding: 1em; border: 3px solid red ">
+<div class="indiv-beast-wrapper">
   <h1>{{this.name}}</h1>
-
+  <img src="{{{this.photo}}}" alt="{{this.name}}" />
   <li>{{this.description}}</li>
   {{#if malicious}}
   <h3 class="warning">WARNING: This creature is dangerous to humans!</h3>
@@ -18,4 +18,6 @@
 <a href=" beastiary/{{this.relatedRoutes}}">{{this.related}} </a>
 {{!-- {{/each}} --}}
 {{/if}}
-<a href="/">click here to go back</a>
+<br>
+<a href="/">
+  &#8592; click here to go back</a>
