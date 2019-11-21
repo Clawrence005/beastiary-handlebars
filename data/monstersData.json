@@ -143,5 +143,16 @@
     ],
     "location": "near north loop",
     "photo": "/assets/images/logodummy.png"
+  },
+  {
+    "name": "Emily Kenk",
+    "routeName": "emilyklenk",
+    "malicious": false,
+    "description": "haunts the bookstore",
+    "foods": [
+      "whiskey"
+    ],
+    "location": "near casino southside",
+    "photo": "/assets/images/logodummy.png"
   }
 ]

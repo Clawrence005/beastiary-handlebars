@@ -8,17 +8,20 @@
   <title>Beastiary</title>
   <link rel="stylesheet" href="/assets/css/styles.css" type="text/css" />
   <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="/assets/js/main.js "></script>
+  {{!-- <script src="/assets/js/main.js "></script> --}}
 </head>
 <nav>
   <img src="/assets/images/logodummy.png" class="logo" alt="logo">
   <div class="nav-name">
-    <h4><a href="./index.html"> Beastiary</a></h4>
+    <h4> Beastiary</h4>
   </div>
-  <li><a href="/">Home</a></li>
-  <li><a href="/data">Data</a></li>
-  <li><a href="/data">other</a></li>
+  <ul class="nav-links">
+
+    <li><a href="/">Home</a></li>
+    <li><a href="/data">Data</a></li>
+    <li><a href="/data">other</a></li>
   </ul>
+
 
   <div class="burger">
     <div class="line-1"></div>
@@ -32,11 +35,18 @@
     <h1>this is the main template</h1>
     {{{body}}}
   </div>
+
+
+  <footer>
+    <div class="footer">
+      <ul class="footer-links">
+        <li><a href="#">link 1</a></li>
+        <li><a href="#">link 2</a></li>
+        <li><a href="#">link 3</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js "></script>
 </body>
 
-<div class="footer">
-  <p>Footer</p>
-  <li><a href="#">Link 1</a></li>
-  <li><a href="#">Link 2</a></li>
-  <li><a href="#">Link 3</a></li>
-</div>
+</html>
