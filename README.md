@@ -13,7 +13,7 @@ A dynamically created website that templates and routes the descriptions and ima
 - Express for dynamic routing
 - SVGs coming soon
 
-## [Click here to play the game](https://clawrence005.github.io/beastiary-handlebars/) 
+## [Click here to play the game](https:// need to set up heroku) 
 
 gif/video goes here
 
