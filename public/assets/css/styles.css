@@ -9,6 +9,17 @@
 
   /* --secondary-text-font-family: Verdana, Geneva, Tahoma, sans-serif; */
   --secondary-text-font-family: serif;
+  /* --secondary-text-font-family: 'Playfair Display', serif; */
+
+
+  --secondary-text-font-family: 'Noto Serif', serif;
+  /* --secondary-text-font-family: 'Libre Baskerville', serif; */
+
+  /* --secondary-text-font-family: 'Ibarra Real Nova', serif; */
+  /* --secondary-text-font-family: 'Source Serif Pro', serif; */
+  /* --secondary-text-font-family: 'Baskervville', serif; */
+  /* --secondary-text-font-family: 'Amiri', serif; */
+
   --secondary-text-color:#444;
   --secondary-text-size:16px;
 
@@ -38,14 +49,14 @@ html, body {
   text-decoration-color: none;
 }
 body{
-color: var(--background-color);
+background-color: var(--background-color);
 }
 h1{
   font-family: var(--primary-text-font-family);
   color: var(--primary-text-color);
   font-size: var(--primary-text-size);
 }
-p, a {
+p, a , li{
   font-family: var(--secondary-text-font-family);
   color: var(--secondary-text-color);
   font-size: var(--secondary-text-size);
@@ -58,9 +69,12 @@ p, a {
   }
 
 .content{
-  padding:0 10% 0;
+  padding:3em 10% 4em;
 }
-
+.main-headline{
+  text-align: center;
+  font-size: 48px;
+}
 .beast-main-wrapper-index{
   display: grid;
   /* grid-template-columns: repeat(3, 1fr); */
@@ -114,6 +128,7 @@ nav{
 }
 
 .nav-name{
+   color: var(--navbar-text-color);
   /* margin-left: 14px; */
   /* border: 3px solid blue; */
   position: absolute;
@@ -172,6 +187,9 @@ padding: 3em;
 } */
 /* FOOTER */
  footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -252,7 +270,7 @@ INDIVIDUAL PAGES
 
   }
   .beast-main-wrapper-index{
-     border: 3px solid blue;
+    border: 3px solid blue;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 10px;
@@ -260,7 +278,7 @@ INDIVIDUAL PAGES
   }
   
   .beast-wrapper-index{
-    background-color:pink; 
+    /* background-color:pink;  */
     padding: 1em;
     margin-bottom: 1em;
   
