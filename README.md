@@ -18,7 +18,7 @@ gif/video goes here
 
 image ![alt text](image.jpg)
 
-## instructions for cloning Repo
+## Instructions for cloning this repository
 - start by cloning this repo.
 - in command line type **npm install** which will install the npm dependencies.
 - type **node server.js** in command line which will start the server. 
