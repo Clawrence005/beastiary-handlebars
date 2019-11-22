@@ -1,5 +1,4 @@
-# BEASTIARY 
-## HTML and CSS Website using Handlebars templating
+# BEASTIARY - HTML and CSS Website using Handlebars templating
 
 ## Overview ##
 A dynamically created website that templates and routes the descriptions and images of fictitious monsters created from a one data object. 
@@ -19,7 +18,8 @@ gif/video goes here
 
 image ![alt text](image.jpg)
 
-### instructions for cloning Repo
+## instructions for cloning Repo
 start by cloning this 
-npm install
-node server.js
+in command line type **npm install** which will install the dependencies.
+to start website locally type **node server.js** in command line which will start the server. then go to http://localhost:5000/ to see the website.
+
