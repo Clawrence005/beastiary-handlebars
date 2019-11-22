@@ -1,7 +1,7 @@
 # BEASTIARY - HTML and CSS Website using Handlebars templating
 
 ## Overview ##
-A dynamically created website that templates and routes the descriptions and images of fictitious monsters created from a one data object. 
+A dynamically created website that templates and routes the descriptions and images of fictitious monsters created from a  data object. 
 ## Built using: ##
 
 - HTML
