@@ -19,7 +19,8 @@ gif/video goes here
 image ![alt text](image.jpg)
 
 ## instructions for cloning Repo
-start by cloning this 
-in command line type **npm install** which will install the dependencies.
-to start website locally type **node server.js** in command line which will start the server. then go to http://localhost:5000/ to see the website.
+- start by cloning this repo.
+- in command line type **npm install** which will install the npm dependencies.
+- type **node server.js** in command line which will start the server. 
+- then go to http://localhost:5000/ to see the website.
 
