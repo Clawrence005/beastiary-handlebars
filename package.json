@@ -18,7 +18,13 @@
   },
   "homepage": "https://github.com/Clawrence005/beastiary-handlebars#readme",
   "dependencies": {
+<<<<<<< HEAD
     "express-handlebars": "^3.1.0",
+=======
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": ">=4.0.0",
+>>>>>>> e24772cb5ffd3a63d26879087969316b2e17d6a5
     "nodemon": "^1.19.4"
   }
 }
