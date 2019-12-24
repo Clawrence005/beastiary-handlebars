@@ -75,6 +75,10 @@ p, a , li{
   text-align: center;
   font-size: 48px;
 }
+.hero{
+  min-width: 100vw;
+  height: calc(94vh);
+}
 .beast-main-wrapper-index{
   display: grid;
   /* grid-template-columns: repeat(3, 1fr); */
@@ -177,6 +181,19 @@ nav{
   transition: all 0.3s ease;
   
 }
+
+.beast-img{
+width:100%;
+}
+
+
+.indiv-beast-img{
+width:100%;
+}
+.img-404{
+  padding: 3em;
+  width:100%;
+}
 /*Content area*/
 /* .content{
 min-height: 550px;
@@ -194,7 +211,7 @@ padding: 3em;
   justify-content: space-around;
   align-items: center;
   height: 10em;
-  background-color: var(--footer-bg-color);
+  /* background-color: var(--footer-bg-color); */
   font-family: 'Poppins', sans-serif;
 } 
 

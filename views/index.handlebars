@@ -1,18 +1,23 @@
-<h1 class="main-headline">Beastiary</h1>
-<a href="/data">
-  &#8592; json api</a>
+<img src="/assets/images/hellmaw.jpg" class="hero" alt="beast"></div>
+<div class="content">
 
-<div class="beast-main-wrapper-index">
-  {{#each monsterslist}}
-  <a href="beastiary/{{this.routeName}}">
-    <div class="beast-wrapper-index">
-      <h1>{{this.name}}</h1>
+  <h1 class="main-headline">Beastiary</h1>
+  <a href="/data">
+    &#8592; json api</a>
 
-      <img src="{{{this.photo}}}" class="beast-img" alt="{{this.name}}" />
-      <li>{{this.summary}}</li>
-      <li>{{this.foods}}</li>
-      <li>location: {{this.location}}
-    </div>
-  </a>
-  {{/each}}
+  <div class="beast-main-wrapper-index">
+
+    {{#each monsterslist}}
+    <a href="beastiary/{{this.routeName}}">
+      <div class="beast-wrapper-index">
+        <h1>{{this.name}}</h1>
+
+        <img src="{{{this.photo}}}" class="beast-img" alt="{{this.name}}" />
+        <li>{{this.summary}}</li>
+        <li>{{this.foods}}</li>
+        <li>location: {{this.location}}
+      </div>
+    </a>
+    {{/each}}
+  </div>
 </div>

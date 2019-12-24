@@ -1,23 +1,25 @@
-<div class="indiv-beast-wrapper">
-  <h1>{{this.name}}</h1>
-  <img src="{{{this.photo}}}" alt="{{this.name}}" />
-  <li>{{this.description}}</li>
-  {{#if malicious}}
-  <h3 class="warning">WARNING: This creature is dangerous to humans!</h3>
-  {{else}}
-  <p>There is currently no knowledge of this creature being malicious to humans</p>
-  {{/if}}
+<div class="content">
+  <div class="indiv-beast-wrapper">
+    <h1>{{this.name}}</h1>
+    <img src="{{{this.photo}}}" alt="{{this.name}}" class="indiv-beast-img" />
+    <li>{{this.description}}</li>
+    {{#if malicious}}
+    <h3 class="warning">WARNING: This creature is dangerous to humans!</h3>
+    {{else}}
+    <p>There is currently no knowledge of this creature being malicious to humans</p>
+    {{/if}}
 
-  {{!-- <img src="{{{this.photo}}}" alt="{{this.name}}" <li>{{this.foods}}</li> --}}
-  <li>location: {{this.location}}
-  </li>
+    {{!-- <img src="{{{this.photo}}}" alt="{{this.name}}" <li>{{this.foods}}</li> --}}
+    <li>location: {{this.location}}
+    </li>
+  </div>
+  {{#if hasRelatives}}
+  <h3>related!</h3>
+  {{!-- {{#each this}} --}}
+  <a href=" beastiary/{{this.relatedRoutes}}">{{this.related}} </a>
+  {{!-- {{/each}} --}}
+  {{/if}}
+  <br>
+  <a href="/">
+    &#8592; click here to go back</a>
 </div>
-{{#if hasRelatives}}
-<h3>related!</h3>
-{{!-- {{#each this}} --}}
-<a href=" beastiary/{{this.relatedRoutes}}">{{this.related}} </a>
-{{!-- {{/each}} --}}
-{{/if}}
-<br>
-<a href="/">
-  &#8592; click here to go back</a>

@@ -25,7 +25,7 @@
       "goats"
     ],
     "location": "a",
-    "photo": "/assets/images/logodummy.png"
+    "photo": "/assets/images/jinn.png"
   },
   {
     "name": "la Llorona",
@@ -43,15 +43,11 @@
     "name": "Manticore",
     "routeName": "manticore",
     "malicious": true,
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "description": "d",
-    "foods": [
-      "cats",
-      "humans",
-      "goats"
-    ],
-    "location": "a",
-    "photo": "/assets/images/logodummy.png"
+    "summary": "the manticore has the face of a human, body of a red lion, a tail ending in either a scorpion's or ending in spikes that it could shoot like arrows",
+    "description": "Persian for man-eater; the manticore has the face of a human, body of a red lion, a tail ending in either a scorpion's or ending in spikes that it could shoot like arrows.  it was believed to have the face of a human and bright blue eyes as well as three rows of teeth.",
+    "foods": "humans",
+    "location": "found throughout India.",
+    "photo": "/assets/images/manticore2.jpg"
   },
   {
     "name": "Nixies",
@@ -60,7 +56,7 @@
     "summary": "Shapeshifting water spirits of Germanic and Scandinavian lore",
     "description": "Shapeshifting water spirits of Germanic and Scandinavian lore. known to deceive and drown unsuspecting victims.",
     "location": "found in bodies of water throught the Germanic world",
-    "photo": "/assets/images/logodummy.png",
+    "photo": "/assets/images/nixies.jpg",
     "hasRelatives": true,
     "related": [
       "Melusine",
@@ -93,15 +89,11 @@
     "name": "Jackalope",
     "routeName": "jackalope",
     "malicious": false,
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "foods": [
-      "cats",
-      "humans",
-      "goats"
-    ],
-    "location": "a",
-    "photo": "/assets/images/logodummy.png"
+    "summary": "The Jackalope has the appearance a jack-rabbit with the horns of a antelope.",
+    "description": "The Jackalope has the appearance a jack-rabbit with the horns of a antelope.  most commonly seen in the western states of from Montana down to New Mexico.  The Jackalope has the ability to  mimic the voice of humansnand were known to use this against those pursuing them.  It is believed that they mated during lightning storms.",
+    "foods": "not currently none",
+    "location": "the western United States including Montana, Colorado, New Mexico",
+    "photo": "/assets/images/jackalope.jpg"
   },
   {
     "name": "Lamia",
@@ -124,7 +116,7 @@
       "children"
     ],
     "location": "ancient Mesopotamia",
-    "photo": "/assets/images/logodummy.png"
+    "photo": "/assets/images/lilitu.jpg"
   },
   {
     "name": "Scott",
@@ -137,7 +129,7 @@
       "vodka"
     ],
     "location": "nearest the grand,",
-    "photo": "/assets/images/logodummy.png"
+    "photo": "/assets/images/liondog.jpg"
   },
   {
     "name": "Jessi",
