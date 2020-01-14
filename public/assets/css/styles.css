@@ -290,11 +290,11 @@ INDIVIDUAL PAGES
   .burger{
     display: block;
     position: absolute;
-    right: 1em;
+    right: 1e
 
   }
   .beast-main-wrapper-index{
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 10px;
