@@ -90,7 +90,7 @@ p, a , li{
 }
 
 .beast-wrapper-index{
-  background-color: rgb(230, 230, 230); 
+  background-color: rgb(243, 241, 241); 
   padding: 1em;
   margin-bottom: 1em;
 }
@@ -111,6 +111,7 @@ text-align: center;
 img {
   display: block;
 }
+
 /* NAVBAR */
 nav{
     /* border: 3px solid blue; */

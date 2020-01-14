@@ -10,16 +10,6 @@
     "photo": "/assets/images/jinn.jpg"
   },
   {
-    "name": "Manticore",
-    "routeName": "manticore",
-    "malicious": true,
-    "summary": "The manticore has the face of a human, body of a red lion, a tail ending in either a scorpion's or ending in spikes that it could shoot like arrows",
-    "description": "Persian for man-eater; the manticore has the face of a human, body of a red lion, a tail ending in either a scorpion's or ending in spikes that it could shoot like arrows.  it was believed to have the face of a human and bright blue eyes as well as three rows of teeth.",
-    "foods": "humans",
-    "location": "found throughout India.",
-    "photo": "/assets/images/manticore2.jpg"
-  },
-  {
     "name": "Nixies",
     "routeName": "nixie",
     "malicious": true,
@@ -42,14 +32,16 @@
     ]
   },
   {
-    "name": "Jackalope",
-    "routeName": "jackalope",
-    "malicious": false,
-    "summary": "The Jackalope has the appearance a jack-rabbit with the horns of a antelope.",
-    "description": "The Jackalope has the appearance a jack-rabbit with the horns of a antelope.  most commonly seen in the western states of from Montana down to New Mexico.  The Jackalope has the ability to  mimic the voice of humansnand were known to use this against those pursuing them.  It is believed that they mated during lightning storms.",
-    "foods": "not currently known",
-    "location": "the western United States including Montana, Colorado, New Mexico",
-    "photo": "/assets/images/jackalope.jpg"
+    "name": "Lilitu",
+    "routeName": "lilitu",
+    "summary": "In Ancient Mesopotamian and Jewish myth Lilitu wree female night demons who tortured and ate babies. Lilith in Jewish myth was Adam's first wife and was created from the same clay as Adam but refused to be subservient to him. Later in European bibles Lilith was translated as lamia.",
+    "malicious": true,
+    "description": "also known as Lilith in the Bible, was a Mesopotamian demon of the night that fed on babies.",
+    "foods": [
+      "children"
+    ],
+    "location": "ancient Mesopotamia",
+    "photo": "/assets/images/lilitu.jpg"
   },
   {
     "name": "Lamia",
@@ -64,15 +56,23 @@
     "photo": "/assets/images/lamia.jpg"
   },
   {
-    "name": "Lilitu",
-    "routeName": "lilitu",
-    "summary": "In Ancient Mesopotamian and Jewish myth Lilitu wree female night demons who tortured and ate babies. Lilith in Jewish myth was Adam's first wife and was created from the same clay as Adam but refused to be subservient to him. Later in European bibles Lilith was translated as lamia.",
+    "name": "Jackalope",
+    "routeName": "jackalope",
+    "malicious": false,
+    "summary": "The Jackalope has the appearance a jack-rabbit with the horns of a antelope.",
+    "description": "The Jackalope has the appearance a jack-rabbit with the horns of a antelope.  most commonly seen in the western states of from Montana down to New Mexico.  The Jackalope has the ability to  mimic the voice of humansnand were known to use this against those pursuing them.  It is believed that they mated during lightning storms.",
+    "foods": "not currently known",
+    "location": "the western United States including Montana, Colorado, New Mexico",
+    "photo": "/assets/images/jackalope.jpg"
+  },
+  {
+    "name": "Manticore",
+    "routeName": "manticore",
     "malicious": true,
-    "description": "also known as Lilith in the Bible, was a Mesopotamian demon of the night that fed on babies.",
-    "foods": [
-      "children"
-    ],
-    "location": "ancient Mesopotamia",
-    "photo": "/assets/images/lilitu.jpg"
+    "summary": "The manticore has the face of a human, body of a red lion, a tail ending in either a scorpion's or ending in spikes that it could shoot like arrows",
+    "description": "Persian for man-eater; the manticore has the face of a human, body of a red lion, a tail ending in either a scorpion's or ending in spikes that it could shoot like arrows.  it was believed to have the face of a human and bright blue eyes as well as three rows of teeth.",
+    "foods": "humans",
+    "location": "found throughout India.",
+    "photo": "/assets/images/manticore2.jpg"
   }
 ]
