@@ -16,7 +16,7 @@ A dynamically created website that templates and routes the descriptions and ima
 
 gif/video goes here
 
-image ![alt text](./finished-website.jpg)
+image ![alt text](./public/assets/images/assefinished-website.jpg)
 
 ## Instructions for cloning this repository
 - start by cloning this repo.
