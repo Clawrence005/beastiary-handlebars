@@ -96,12 +96,18 @@ p, a , li{
 }
 
 .indiv-beast-wrapper{
-  background-color: lightblue; 
-  /* padding: 1em; */
-  /* margin-bottom: 1em; */
-  border: 3px solid red ;
-}
+  /* background-color: lightblue;  */
 
+  /* border: 3px solid red ; */
+}
+.indiv-beast-wrapper > img{
+margin: 0 auto;
+padding: 3em;
+width: 65%;
+}
+.indiv-beast-wrapper > h1{
+text-align: center; 
+}
 img {
   display: block;
 }
