@@ -1,49 +1,19 @@
 [
   {
-    "name": "Ghouls",
-    "routeName": "ghoul",
-    "malicious": true,
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "foods": [
-      "cats",
-      "humans",
-      "goats"
-    ],
-    "location": "aLorem",
-    "photo": "/assets/images/beastiary.svg"
-  },
-  {
     "name": "Jinn",
     "routeName": "jinn",
     "malicious": true,
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "description": "b",
-    "foods": [
-      "cats",
-      "humans",
-      "goats"
-    ],
-    "location": "a",
-    "photo": "/assets/images/jinn.png"
-  },
-  {
-    "name": "la Llorona",
-    "routeName": "lallorona",
-    "summary": "A sprectral 'wailing woman' in Spanish she haunts river and ditch banks searching for the children she drowned in madness.",
-    "description": "A sprectral 'wailing woman' in Spanish she haunts river and ditch banks searching for the children she drowned in madness after her husband spurned her.",
-    "malicious": true,
-    "foods": [
-      "children"
-    ],
-    "location": "found along rivers and ditches thoughout the Spanish speaking regions of the Americas.",
-    "photo": "/assets/images/logodummy.png"
+    "summary": "Mischievous and sometimes malicious beings of Arabian and Islamic folklore",
+    "description": "Beings created from smokeless fire, Jinn are necessarily good or evil. Jinn are believed to predate Islam but mentioned in the Quran. Often depicted as animal headed chimaera, they are said to exist in storms.  The wolf is believed to be the natural enemy of Jinn ",
+    "foods": "",
+    "location": "Ancient Arabia and the Islamic World",
+    "photo": "/assets/images/jinn.jpg"
   },
   {
     "name": "Manticore",
     "routeName": "manticore",
     "malicious": true,
-    "summary": "the manticore has the face of a human, body of a red lion, a tail ending in either a scorpion's or ending in spikes that it could shoot like arrows",
+    "summary": "The manticore has the face of a human, body of a red lion, a tail ending in either a scorpion's or ending in spikes that it could shoot like arrows",
     "description": "Persian for man-eater; the manticore has the face of a human, body of a red lion, a tail ending in either a scorpion's or ending in spikes that it could shoot like arrows.  it was believed to have the face of a human and bright blue eyes as well as three rows of teeth.",
     "foods": "humans",
     "location": "found throughout India.",
@@ -72,26 +42,12 @@
     ]
   },
   {
-    "name": "Bodach",
-    "routeName": "bodach",
-    "malicious": true,
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    "foods": [
-      "cats",
-      "humans",
-      "goats"
-    ],
-    "location": "a",
-    "photo": "/assets/images/logodummy.png"
-  },
-  {
     "name": "Jackalope",
     "routeName": "jackalope",
     "malicious": false,
     "summary": "The Jackalope has the appearance a jack-rabbit with the horns of a antelope.",
     "description": "The Jackalope has the appearance a jack-rabbit with the horns of a antelope.  most commonly seen in the western states of from Montana down to New Mexico.  The Jackalope has the ability to  mimic the voice of humansnand were known to use this against those pursuing them.  It is believed that they mated during lightning storms.",
-    "foods": "not currently none",
+    "foods": "not currently known",
     "location": "the western United States including Montana, Colorado, New Mexico",
     "photo": "/assets/images/jackalope.jpg"
   },
@@ -99,61 +55,24 @@
     "name": "Lamia",
     "routeName": "lamia",
     "malicious": true,
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "description": "female child eating serpent tailed monsters",
+    "summary": "Lamia were  boogey-woman of classical myth, depicted as a female from the waist up and a snake from the waist down.  Lamia were female child-eating serpent-tailed monsters",
+    "description": "A classical boogey woman and seductress of men, lamia fed upon babies and children.",
     "foods": [
       "children"
     ],
     "location": "ancient Greece",
-    "photo": "/assets/images/logodummy.png"
+    "photo": "/assets/images/lamia.jpg"
   },
   {
     "name": "Lilitu",
     "routeName": "lilitu",
+    "summary": "In Ancient Mesopotamian and Jewish myth Lilitu wree female night demons who tortured and ate babies. Lilith in Jewish myth was Adam's first wife and was created from the same clay as Adam but refused to be subservient to him. Later in European bibles Lilith was translated as lamia.",
     "malicious": true,
-    "description": "also known as Lillith in the Bible, was a mesopotamian monster that fed on babies.",
+    "description": "also known as Lilith in the Bible, was a Mesopotamian demon of the night that fed on babies.",
     "foods": [
       "children"
     ],
     "location": "ancient Mesopotamia",
     "photo": "/assets/images/lilitu.jpg"
-  },
-  {
-    "name": "Scott",
-    "routeName": "scott",
-    "malicious": true,
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "description": "drinks vodka sodas",
-    "foods": [
-      "children",
-      "vodka"
-    ],
-    "location": "nearest the grand,",
-    "photo": "/assets/images/liondog.jpg"
-  },
-  {
-    "name": "Jessi",
-    "routeName": "jessi",
-    "malicious": false,
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "description": "haunts the library and eats vegan pizza",
-    "foods": [
-      "classic cocktails",
-      "vegan pizza"
-    ],
-    "location": "near north loop",
-    "photo": "/assets/images/logodummy.png"
-  },
-  {
-    "name": "Emily Kenk",
-    "routeName": "emilyklenk",
-    "malicious": false,
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "description": "haunts the bookstore",
-    "foods": [
-      "whiskey"
-    ],
-    "location": "near casino southside",
-    "photo": "/assets/images/logodummy.png"
   }
 ]
