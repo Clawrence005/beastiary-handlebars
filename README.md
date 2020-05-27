@@ -14,9 +14,7 @@ A dynamically created website that templates and routes the descriptions and ima
 
 ## [Click here to see the deployed website](https://mysterious-tor-51117.herokuapp.com/) 
 
-gif/video goes here
-
-image ![finished website](./public/assets/images/finished-website.jpg)
+![finished website](./public/assets/images/finished-website.jpg)
 
 ## Instructions for cloning this repository
 - start by cloning this repo.

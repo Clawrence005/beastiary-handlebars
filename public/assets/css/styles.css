@@ -290,7 +290,7 @@ INDIVIDUAL PAGES
   .burger{
     display: block;
     position: absolute;
-    right: 1e
+    right: 1em;
 
   }
   .beast-main-wrapper-index{
