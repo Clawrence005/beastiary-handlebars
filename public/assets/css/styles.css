@@ -2,25 +2,12 @@
 :root{
   /* main */
   --background-color: white;
-
   --primary-text-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   --primary-text-color:#333;
   --primary-text-size:32px;
 
-  /* --secondary-text-font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  --secondary-text-font-family: serif;
-  /* --secondary-text-font-family: 'Playfair Display', serif; */
-
-
   --secondary-text-font-family: 'Noto Serif', serif;
-  /* --secondary-text-font-family: 'Libre Baskerville', serif; */
-
-  /* --secondary-text-font-family: 'Ibarra Real Nova', serif; */
-  /* --secondary-text-font-family: 'Source Serif Pro', serif; */
-  /* --secondary-text-font-family: 'Baskervville', serif; */
-  /* --secondary-text-font-family: 'Amiri', serif; */
-
-  --secondary-text-color:#444;
+ --secondary-text-color:#444;
   --secondary-text-size:16px;
 
 /* navbar */
@@ -51,11 +38,14 @@ html, body {
 body{
 background-color: var(--background-color);
 }
-h1{
+h1, h2, h3{
   font-family: var(--primary-text-font-family);
   color: var(--primary-text-color);
-  font-size: var(--primary-text-size);
 }
+/* h1{
+  font-size: var(--primary-text-size);
+} */
+
 p, a , li{
   font-family: var(--secondary-text-font-family);
   color: var(--secondary-text-color);
@@ -186,11 +176,13 @@ nav{
   background-color: var(--navbar-text-color);
   margin: 5px;
   transition: all 0.3s ease;
-  
 }
 
 .beast-img{
 width:100%;
+height: 22rem;
+/* height: 18rem;*/
+object-fit: cover; 
 }
 
 
@@ -218,7 +210,7 @@ padding: 3em;
   justify-content: space-around;
   align-items: center;
   height: 10em;
-  /* background-color: var(--footer-bg-color); */
+  background-color: var(--footer-bg-color);
   font-family: 'Poppins', sans-serif;
 } 
 

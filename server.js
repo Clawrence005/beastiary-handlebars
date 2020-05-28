@@ -17,35 +17,24 @@ var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-// var express = require("express");
-// const app = require("express")();
-// const path = require("path");
-// var PORT = process.env.PORT || 5000;
 var monsters = require("./data/monstersData.json");
-
-// // Set views directory and views engine as Handlebars using,
-// app.set("views", path.join(__dirname, "views"));
-// app.set("view engine", "handlebars");
-// app.use(express.urlencoded({ extended: true }));
-// app.use(express.json());
-// // serve static files
-// app.use(express.static(__dirname + '/public'));
-// Setup a GET route at ‘/’ using,
 
 app.get("/", (req, res) => {
   console.log("monster", monsters[0]);
-
   res.render("index", {
-    // listitem: monsters,
-    //  listitem2: list2,
     monsterslist: monsters
   });
 });
 
+app.get("/beastiary", (req, res) => {
+  console.log("monster", monsters[0]);
+  res.render("beast-container", {
+    monsterslist: monsters
+  });
+});
 
 app.get('/data', function (req, res, next) {
   res.json(monsters);
-
 });
 
 
